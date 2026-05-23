@@ -1,0 +1,66 @@
+<% this.title = '私信' %>
+<% include header %>
+<div class="padding">
+  <h2 class="ui header">私信</h2>
+  <button class="ui primary button" onclick="$('#modal-send').modal('show')">
+    <i class="edit icon"></i> 发私信
+  </button>
+ 
+  <div class="ui small modal" id="modal-send">
+    <div class="header"><i class="mail icon"></i> 发私信</div>
+    <div class="content">
+      <div class="ui form">
+        <div class="field">
+          <label>收件人用户名</label>
+          <input type="text" id="send-username" placeholder="输入用户名..." />
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui cancel button">取消</div>
+      <div class="ui primary button" onclick="doSend()">
+        <i class="send icon"></i> 发送
+      </div>
+    </div>
+  </div>
+ 
+  <script>
+  function doSend() {
+    var username = document.getElementById('send-username').value.trim();
+    if (username) {
+      window.location.href = '/message/' + encodeURIComponent(username);
+    }
+  }
+  $('#modal-send').modal({ autofocus: false });
+  $('#modal-send').on('shown', function() {
+    document.getElementById('send-username').focus();
+  });
+  document.getElementById('send-username').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') doSend();
+  });
+  </script>
+ 
+  <div style="margin-top: 20px;">
+    <% if (partners.length === 0) { %>
+      <div class="ui placeholder segment" style="text-align:center;">
+        <i class="inbox icon" style="font-size:2em; color:#ccc;"></i>
+        <p style="color:#999; margin-top:10px;">暂无私信</p>
+      </div>
+    <% } else { %>
+      <div class="ui relaxed divided list">
+        <% for (let p of partners) { %>
+          <div class="value" style="padding: 12px 8px;">
+            <i class="user circle icon" style="font-size:1.4em; color:#2185d0;"></i>
+            <strong class="content" style="display:inline-block; vertical-align:middle; margin-left:8px;">
+              <a class="header" href="<%= syzoj.utils.makeUrl(['message', p.username]) %>"
+                 style="font-size:1.05em;">
+                <%= p.username %>
+              </a>
+            </strong>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+</div>
+<% include footer %>

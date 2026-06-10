@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="full">
+  <PackageRequirements>
+    <PackageRequirement Product="exceladdin" MinVersion="1.0" MaxVersion="99.99">
+        <Rule Name="VSTO2010Installed" />
+        <Rule Name="Excel2007OrHigherInstalledByReg" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="8.0.17" Series="2.7" Architecture="X64">
+        <Rule Name="Python27x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="workbench" MinVersion="1.0" MaxVersion="6.1.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2010x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="1.999.999" Series="3.2" Architecture="X64">
+        <Rule Name="Python32x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="2.1.6" Series="3.3" Architecture="X64">
+        <Rule Name="Python33x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-visualstudio-plugin" MinVersion="1.0" MaxVersion="1.2.3" Architecture="X86">
+        <Rule Name="VisualStudio_9_10_11_12" />
+    </PackageRequirement>
+    <PackageRequirement Product="utilities" MinVersion="1.5" MaxVersion="99.99" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.0" MaxVersion="2.1.999" Series="3.4" Architecture="X64">
+        <Rule Name="Python34x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="workbench" MinVersion="6.3" MaxVersion="8.0.15" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="utilities" MinVersion="1.5" MaxVersion="99.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-visualstudio-plugin" MinVersion="1.2.4" MaxVersion="1.2.8" Architecture="X86">
+        <Rule Name="VisualStudio_11_12_14_15" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-shell" MinVersion="1.0.0" MaxVersion="1.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="2.0" MaxVersion="2.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-shell" MinVersion="1.0.0" MaxVersion="1.99" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="2.0" MaxVersion="2.99" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.5.0" MaxVersion="5.5.999" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2008x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.5.0" MaxVersion="5.5.999" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2008x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.6.0" MaxVersion="5.6.999" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2010x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.6.0" MaxVersion="5.6.999" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2010x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.7.0" MaxVersion="5.7.37" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.7.0" MaxVersion="5.7.37" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+    </PackageRequirement>
+	<PackageRequirement Product="mysql-server" MinVersion="5.7.38" MaxVersion="5.7.39" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+        <Rule Name="VCRuntime2019x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.7.38" MaxVersion="5.7.39" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+	<PackageRequirement Product="mysql-server" MinVersion="5.7.40" MaxVersion="5.7.999" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2019x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="5.7.40" MaxVersion="5.7.999" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="8.0.0" MaxVersion="8.0.13" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="5.3.8" MaxVersion="5.99" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="5.3.8" MaxVersion="5.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="1.1.9" MaxVersion="1.1.10" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2013x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="1.1.9" MaxVersion="1.1.10" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2013x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-c" MinVersion="6.1.10" MaxVersion="99.99" Architecture="X86" License="Community">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-c" MinVersion="6.1.10" MaxVersion="99.99" Architecture="X64" License="Community">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="8.0.17" Series="2.7" Architecture="X86">
+        <Rule Name="Python27x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="1.999.999" Series="3.2" Architecture="X86">
+        <Rule Name="Python32x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="1.0" MaxVersion="2.1.6" Series="3.3" Architecture="X86">
+        <Rule Name="Python33x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.0" MaxVersion="2.1.999" Series="3.4" Architecture="X86">
+        <Rule Name="Python34x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-shell" MinVersion="8.0.0" MaxVersion="8.0.13" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="1.1.11" MaxVersion="8.0.12" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="8.0.13" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.0" MaxVersion="8.0.11" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.12" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.8" MaxVersion="8.0.17" Series="3.6" Architecture="X64">
+        <Rule Name="Python36x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.8" MaxVersion="8.0.17" Series="3.6" Architecture="X86">
+        <Rule Name="Python36x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.8" MaxVersion="8.0.17" Series="3.5" Architecture="X64">
+        <Rule Name="Python35x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.8" MaxVersion="8.0.17" Series="3.5" Architecture="X86">
+        <Rule Name="Python35x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.0" MaxVersion="8.0.11" Series="3.4" Architecture="X64">
+        <Rule Name="Python34x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.0" MaxVersion="8.0.11" Series="3.4" Architecture="X86">
+        <Rule Name="Python34x86Installed" />
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0" MaxVersion="8.0.17" Series="3.3" Architecture="X64">
+        <Rule Name="Python33x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0" MaxVersion="8.0.17" Series="3.3" Architecture="X86">
+        <Rule Name="Python33x86Installed" />
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.3" Architecture="X64" License="Community">
+        <Rule Name="Python33x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.3" Architecture="X64" License="Commercial">
+        <Rule Name="Python33x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.3" Architecture="X86" License="Community">
+        <Rule Name="Python33x86Installed" />
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.3" Architecture="X86" License="Commercial">
+        <Rule Name="Python33x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.4" Architecture="X64" License="Community">
+        <Rule Name="Python34x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.4" Architecture="X64" License="Commercial">
+        <Rule Name="Python34x64Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.4" Architecture="X86" License="Community">
+        <Rule Name="Python34x86Installed" />
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="2.1.7" MaxVersion="7.999.999" Series="3.4" Architecture="X86" License="Commercial">
+        <Rule Name="Python34x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.13" MaxVersion="8.0.17" Series="3.7" Architecture="X64">
+        <Rule Name="Python37x64Installed" />
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.13" MaxVersion="8.0.17" Series="3.7" Architecture="X86">
+        <Rule Name="Python37x86Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.18" MaxVersion="8.0.18" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8018Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.18" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8018Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-visualstudio-plugin" MinVersion="1.2.9" MaxVersion="99.99" Architecture="X86">
+        <Rule Name="VisualStudio_14_15_16" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="8.0.14" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-server" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="workbench" MinVersion="8.0.16" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="workbench" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-shell" MinVersion="8.0.14" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-shell" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0" MaxVersion="8.0.13" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0" MaxVersion="8.0.13" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0.14" MaxVersion="8.0.18" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0.14" MaxVersion="8.0.18" Architecture="X86">
+        <Rule Name="VCRuntime2017x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="mysql-router" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X86">
+        <Rule Name="VCRuntime2019x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.12" MaxVersion="8.0.18" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.19" MaxVersion="8.0.20" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.19" MaxVersion="8.0.20" Architecture="X86">
+        <Rule Name="VCRuntime2017x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="8.0.13" MaxVersion="8.0.18" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-cpp" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X86">
+        <Rule Name="VCRuntime2017x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="meb" MinVersion="8.0" MaxVersion="8.0.13" Architecture="X64" License="Commercial">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="meb" MinVersion="8.0.14" MaxVersion="8.0.18" Architecture="X64" License="Commercial">
+        <Rule Name="VCRuntime2017x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="meb" MinVersion="8.0.19" MaxVersion="99.99" Architecture="X64" License="Commercial">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.21" MaxVersion="99.99" Architecture="X64">
+        <Rule Name="VCRuntime2019x64OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-odbc" MinVersion="8.0.21" MaxVersion="99.99" Architecture="X86">
+        <Rule Name="VCRuntime2019x86OrGreaterInstalled_Registry" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.19" MaxVersion="8.0.23" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8019To8023Installed" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.19" MaxVersion="8.0.23" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8019To8023Installed" />
+    </PackageRequirement>
+	<PackageRequirement Product="connector-python" MinVersion="8.0.24" MaxVersion="8.0.27" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8024PlusInstalled" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.24" MaxVersion="8.0.27" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8024PlusInstalled" />
+    </PackageRequirement>
+	<PackageRequirement Product="connector-python" MinVersion="8.0.28" MaxVersion="8.0.28" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8028PlusInstalled" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.28" MaxVersion="8.0.28" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8028PlusInstalled" />
+    </PackageRequirement>
+	<PackageRequirement Product="connector-python" MinVersion="8.0.29" MaxVersion="8.0.30" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8029PlusInstalled" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.29" MaxVersion="8.0.30" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8029PlusInstalled" />
+    </PackageRequirement>
+	<PackageRequirement Product="connector-python" MinVersion="8.0.31" MaxVersion="999.999" Architecture="X86">
+        <Rule Name="VCRuntime2015x86OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx86For8031PlusInstalled" />
+    </PackageRequirement>
+    <PackageRequirement Product="connector-python" MinVersion="8.0.31" MaxVersion="999.999" Architecture="X64">
+        <Rule Name="VCRuntime2015x64OrGreaterInstalled_Registry" />
+        <Rule Name="PythonAnyx64For8031PlusInstalled" />
+    </PackageRequirement>
+  </PackageRequirements>
+  <RuleDefinitions>
+    <RuleDefinition Name="VCRuntime2010x86Installed" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=26999" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe" FailMessage="Microsoft Visual C++ 2010 Redistributable Package (x86) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x86" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VSTO2010Installed" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=54251" Action="[file] /q /norestart" Download="http://download.microsoft.com/download/C/0/0/C001737F-822B-48C2-8F6A-CDE13B4B9E9C/vstor_redist.exe" FailMessage="Visual Studio 2010 Tools for Office Runtime is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VSTO Runtime Setup\v4R" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Excel2007OrHigherInstalled" Combine="Or" OfficialLink="http://office.microsoft.com/excel/" Action="" Download="" FailMessage="Excel for Office 2007 or higher is not installed." >
+        <MSIComponentCheck ComponentId="{0638C49D-BB8B-4CD1-B191-052E8F325736}"         Installed="true"/>
+        <MSIComponentCheck ComponentId="{538F6C89-2AD5-4006-8154-C6670774E980}"         Architecture="X86"         Installed="true"/>
+        <MSIComponentCheck ComponentId="{8B1BF0B4-A1CA-4656-AA46-D11C50BC55A4}"         Architecture="X64"         Installed="true"/>
+        <MSIComponentCheck ComponentId="{C8A65ABE-3270-4FD7-B854-50C8082C8F39}"         Architecture="X86"         Installed="true"/>
+        <MSIComponentCheck ComponentId="{E3BD1151-B9CA-4D45-A77E-51A6E0ED322A}"         Architecture="X64"         Installed="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python27x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 2.7 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python32x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.2 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.2\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.2\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python33x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.3 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.3\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.3\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VisualStudio_9_10_11_12" Combine="Or" OfficialLink="http://www.microsoft.com/visualstudio" Action="" Download="" FailMessage="Visual Studio version 2008, 2010, 2012 or 2013  must be installed." >
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.9.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.10.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.11.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.12.0" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2013x86Installed" OfficialLink="http://www.microsoft.com/en-us/download/details.aspx?id=40784" Action="[file] /q /norestart" Download="http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x86.exe" FailMessage="Microsoft Visual C++ 2013 Redistributable Package (x86) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python34x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.4 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.4\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.4\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2013x64Installed" OfficialLink="http://www.microsoft.com/en-us/download/details.aspx?id=40784" Action="[file] /q /norestart" Download="http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x64.exe" FailMessage="Microsoft Visual C++ 2013 Redistributable Package (x64) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x64" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Excel2007OrHigherInstalledByReg" Combine="Or" OfficialLink="http://office.microsoft.com/excel/" Action="" Download="" FailMessage="Microsoft Excel 2007 or higher is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\12.0\Excel\InstallRoot" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\14.0\Excel\InstallRoot" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\15.0\Excel\InstallRoot" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\16.0\Excel\InstallRoot" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\14.0\Excel\InstallRoot" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\15.0\Excel\InstallRoot" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="Software\Microsoft\Office\16.0\Excel\InstallRoot" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2015x64Installed" Combine="Or" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=52685" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/0/6/4/064F84EA-D1DB-4EAA-9A5C-CC2F0FF6A638/vc_redist.x64.exe" FailMessage="Microsoft Visual C++ 2015 Redistributable Package (x64) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\09A86F63C932FD435BC8463B1035EC53" Check32on64="false"/>
+        <ProductCheck UpgradeCode="09A86F63C932FD435BC8463B1035EC53" Installed="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2015x86Installed" Combine="Or" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=52685" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/0/6/4/064F84EA-D1DB-4EAA-9A5C-CC2F0FF6A638/vc_redist.x86.exe" FailMessage="Microsoft Visual C++ 2015 Redistributable Package (x86) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\15E8B87C56C0E773581D82F286F95E50" Check32on64="false"/>
+        <ProductCheck UpgradeCode="15E8B87C56C0E773581D82F286F95E50" Installed="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2008x86Installed" Combine="Or" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=26368" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe" FailMessage="Microsoft Visual C++ 2008 Redistributable Package (x86) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{FF66E9F6-83E7-3A3E-AF14-8DE9A809A6A4}" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9A25302D-30C0-39D9-BD6F-21E6EC160475}" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1F1C2DFC-2D24-3E06-BCB8-725134ADF989}" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9BE518E6-ECC6-35A9-88E4-87755C07200F}" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2010x64Installed" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=26999" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe" FailMessage="Microsoft Visual C++ 2010 Redistributable Package (x64) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x64" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2008x64Installed" Combine="Or" OfficialLink="https://www.microsoft.com/en-us/download/details.aspx?id=26368" Action="[file] /q /norestart" Download="https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe" FailMessage="Microsoft Visual C++ 2008 Redistributable Package (x64) is not installed" Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{350AA351-21FA-3270-8B7A-835434E766AD}" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8220EEFE-38CD-377E-8595-13398D740ACE}" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4B6C7001-C7D6-3710-913E-5BC23FCE91E6}" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VisualStudio_11_12_14_15" Combine="Or" OfficialLink="http://www.microsoft.com/visualstudio" Action="" Download="" FailMessage="Visual Studio version 2012, 2013, 2015 or 2017 must be installed." >
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.11.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.12.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.14.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.15.0" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python35x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.5 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python27x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 2.7 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python32x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.2 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.2\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.2\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python33x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.3 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.3\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.3\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python34x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.4 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.4\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.4\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python35x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.5 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python36x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.6 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python36x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.6 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python37x64Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.7 (64-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="Python37x86Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 3.7 (32-bit) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx86For8018Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/	" FailMessage="Python 32-bit (2.7, 3.5, 3.6 or 3.7) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8018Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (2.7, 3.5, 3.6 or 3.7) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VisualStudio_14_15_16" Combine="Or" OfficialLink="http://www.microsoft.com/visualstudio" Action="" Download="" FailMessage="Visual Studio version 2015, 2017 or 2019 must be installed." >
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.14.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.15.0" Check32on64="false"/>
+        <RegistryCheck Root="ClassesRoot" Key="VisualStudio.DTE.16.0" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2015x64OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x64.exe" FailMessage="Microsoft Visual C++ 2015 Redistributable Package (x64) or greater is not installed. Latest binary compatible version (2019) will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false" ValueName="Major" ValueData="14" Operator="="/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2015x86OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x86.exe" FailMessage="Microsoft Visual C++ 2015 Redistributable Package (x86) or greater is not installed. Latest binary compatible version (2019) will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true" ValueName="Major" ValueData="14" Operator="="/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2017x64OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x64.exe" FailMessage="Microsoft Visual C++ 2017 Redistributable Package (x64) or greater is not installed. Latest binary compatible version (2019) will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false" ValueName="Major" ValueData="14" Operator="="/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false" ValueName="Minor" ValueData="10" Operator="&amp;gt;="/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2017x86OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x86.exe" FailMessage="Microsoft Visual C++ 2017 Redistributable Package (x86) or greater is not installed. Latest binary compatible version (2019) will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true" ValueName="Major" ValueData="14" Operator="="/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true" ValueName="Minor" ValueData="10" Operator="&amp;gt;="/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2019x64OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x64.exe" FailMessage="Microsoft Visual C++ 2019 Redistributable Package (x64) is not installed. Latest binary compatible version will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false" ValueName="Major" ValueData="14" Operator="="/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64" Check32on64="false" ValueName="Minor" ValueData="20" Operator="&amp;gt;="/>
+    </RuleDefinition>
+    <RuleDefinition Name="VCRuntime2019x86OrGreaterInstalled_Registry" OfficialLink="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" Action="[file] /q /norestart" Download="https://aka.ms/vs/16/release/vc_redist.x86.exe" FailMessage="Microsoft Visual C++ 2019 Redistributable Package (x86) is not installed. Latest binary compatible version will be installed if agreed to resolve this requirement." Silent="true"  >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true" ValueName="Major" ValueData="14" Operator="="/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" Check32on64="true" ValueName="Minor" ValueData="20" Operator="&amp;gt;="/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx86For8019To8023Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 32-bit (2.7, 3.5, 3.6, 3.7 or 3.8) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8019To8023Installed" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (2.7, 3.5, 3.6, 3.7 or 3.8) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\2.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.5\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+	<RuleDefinition Name="PythonAnyx86For8024PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 32-bit (3.6, 3.7, 3.8 or 3.9) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8024PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (3.6, 3.7, 3.8 or 3.9) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+	<RuleDefinition Name="PythonAnyx86For8028PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 32-bit (3.6, 3.7, 3.8, 3.9 or 3.10) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8028PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (3.6, 3.7, 3.8, 3.9 or 3.10) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.6\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx86For8029PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 32-bit (3.7, 3.8, 3.9 or 3.10) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8029PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (3.7, 3.8, 3.9 or 3.10) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+	<RuleDefinition Name="PythonAnyx86For8031PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 32-bit (3.7, 3.8, 3.9, 3.10 or 3.11) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10-32\InstallPath" Check32on64="true"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.11-32\InstallPath" Check32on64="true"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.11-32\InstallPath" Check32on64="true"/>
+    </RuleDefinition>
+    <RuleDefinition Name="PythonAnyx64For8031PlusInstalled" Combine="Or" OfficialLink="" Action="" Download="http://www.python.org/download/" FailMessage="Python 64-bit (3.7, 3.8, 3.9, 3.10 or 3.11) is not installed" >
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.7\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.8\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.9\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.10\InstallPath" Check32on64="false"/>
+		<RegistryCheck Root="LocalMachine" Key="SOFTWARE\Python\PythonCore\3.11\InstallPath" Check32on64="false"/>
+        <RegistryCheck Root="CurrentUser" Key="SOFTWARE\Python\PythonCore\3.11\InstallPath" Check32on64="false"/>
+    </RuleDefinition>
+  </RuleDefinitions>
+</RuleManifest>

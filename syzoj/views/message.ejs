@@ -1,0 +1,112 @@
+<% this.title = '与 ' + partner.username + ' 的对话' %>
+<% include header %>
+<style>
+  .msg-box {
+    max-height: 480px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fafafa;
+    margin-bottom: 16px;
+  }
+  .msg-bubble {
+    display: flex;
+    margin-bottom: 14px;
+    align-items: flex-end;
+  }
+  .msg-bubble.mine {
+    flex-direction: row-reverse;
+  }
+  .msg-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #2185d0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1em;
+    flex-shrink: 0;
+  }
+  .msg-bubble.mine .msg-avatar {
+    background: #21ba45;
+  }
+  .msg-content {
+    max-width: 65%;
+    margin: 0 10px;
+  }
+  .msg-name {
+    font-size: 0.78em;
+    color: #999;
+    margin-bottom: 3px;
+  }
+  .msg-bubble.mine .msg-name {
+    text-align: right;
+  }
+  .msg-text {
+    display: inline-block;
+    padding: 9px 14px;
+    border-radius: 16px;
+    background: #e8e8e8;
+    color: #222;
+    word-break: break-word;
+    line-height: 1.5;
+  }
+  .msg-bubble.mine .msg-text {
+    background: #2185d0;
+    color: #fff;
+  }
+</style>
+ 
+<div class="padding">
+  <h2 class="ui header">
+    与 <a href="<%= syzoj.utils.makeUrl(['user', partner.id]) %>"><%= partner.username %></a> 的对话
+  </h2>
+ 
+  <div class="msg-box" id="msg-box">
+    <% if (messages.length === 0) { %>
+      <p style="text-align:center; color:#bbb;">暂无消息，发一条开始聊天吧</p>
+    <% } else { %>
+      <% for (let m of messages) { %>
+        <% const isMine = m.sender_id === res.locals.user.id %>
+        <div class="msg-bubble <%= isMine ? 'mine' : '' %>">
+          <div class="msg-avatar">
+            <%= isMine ? '我' : partner.username[0].toUpperCase() %>
+          </div>
+          <div class="msg-content">
+            <div class="msg-name"><%= isMine ? '我' : partner.username %></div>
+            <div class="msg-text"><%= m.content %></div>
+          </div>
+        </div>
+      <% } %>
+    <% } %>
+  </div>
+ 
+  <form class="ui form" method="post">
+    <div class="field">
+      <textarea name="content" rows="3" placeholder="输入内容，回车发送..." id="msg-input"></textarea>
+    </div>
+    <button type="submit" class="ui primary button">
+      <i class="send icon"></i> 发送
+    </button>
+    <a href="<%= syzoj.utils.makeUrl(['messages']) %>" class="ui button">
+      <i class="arrow left icon"></i> 返回
+    </a>
+  </form>
+</div>
+ 
+<script>
+  var box = document.getElementById('msg-box');
+  if (box) box.scrollTop = box.scrollHeight;
+ 
+  document.getElementById('msg-input').addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'Enter') {
+      this.closest('form').submit();
+    }
+  });
+</script>
+ 
+<% include footer %>

@@ -1,0 +1,41 @@
+<% this.title = '编辑标签' %>
+<% include header %>
+<div class="padding">
+  <form class="ui form" action="<%= syzoj.utils.makeUrl(['problems', 'tag', tag.id, 'edit']) %>" method="post">
+      <div class="field">
+          <label>标签名称</label>
+          <input type="text" name="name" value="<%= tag.name %>">
+      </div>
+<div class="field">
+  <label>标签颜色</label>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <input type="color" id="tag_color_picker" value="<%= tag.color && tag.color.startsWith('#') ? tag.color : '#2196F3' %>" 
+           style="width: 50px; height: 36px; padding: 0; border: none; cursor: pointer;">
+    <input type="text" name="color" id="tag_color_text" value="<%= tag.color %>" 
+           placeholder="#ff6600 或 red" style="flex: 1;">
+  </div>
+</div>
+      <div style="text-align: center; ">
+      <button type="submit" class="ui labeled submit icon button">
+        <i class="icon edit"></i> 提交
+      </button>
+      </div>
+  </form>
+<script>
+$(function () {
+  $('#tag_color').dropdown();
+  var picker = document.getElementById('tag_color_picker');
+  var textInput = document.getElementById('tag_color_text');
+
+  picker.addEventListener('input', function() {
+    textInput.value = picker.value;
+  });
+ 
+  textInput.addEventListener('input', function() {
+    if (/^#[0-9a-fA-F]{6}$/.test(textInput.value)) {
+      picker.value = textInput.value;
+    }
+  });
+});
+</script>
+<% include footer %>

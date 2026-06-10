@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<UpdateInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.6.16.0</Version>
+  <MinManifestRequired>696</MinManifestRequired>
+  <CommunityURL>http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-update-1.6.16.0-Community.msi</CommunityURL>
+  <CommunityHash>51E04B5D8A5CD2B437A52707FC1793EDF1FF9FF3</CommunityHash>
+  <CommunityHashSha256>c740c64cbc56d35ca6c54c968da2fcf494c487ce8c301b86005894d4a86f9ba8</CommunityHashSha256>
+  <CommercialURL>https://updates.oracle.com/Orion/Services/download/p38324381_160_WINNT.zip?aru=27859265&amp;patch_file=p38324381_160_WINNT.zip</CommercialURL>
+  <CommercialHash>C79FEBF241E53509A38191DC3E91EC9956DD8B69</CommercialHash>
+  <CommercialHashSha256>3d791f6ee04984647dc769d01bf3372675b2fcca2833897d475751fdd5d80bfa</CommercialHashSha256>
+</UpdateInformation>

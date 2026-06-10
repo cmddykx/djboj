@@ -1,0 +1,172 @@
+mysql-installer Information: 10 : Attempting to update the product catalog.
+DateTime=2026-05-20T09:05:25.6709434Z
+mysql-installer Information: 10 : Skipping download of the product catalog.
+DateTime=2026-05-20T09:05:25.6709434Z
+mysql-installer Information: 10 : Attempting to update the list of products.
+DateTime=2026-05-20T09:05:25.6709434Z
+mysql-installer Information: 10 : Applying new manifest.
+DateTime=2026-05-20T09:05:25.6709434Z
+mysql-installer Information: 10 : Loading product catalog.
+DateTime=2026-05-20T09:05:26.6286869Z
+mysql-installer Information: 10 : The product catalog has not yet been loaded. Skipping merge operation.
+DateTime=2026-05-20T09:05:26.6443094Z
+mysql-installer Information: 10 : Successfully updated product catalog.
+DateTime=2026-05-20T09:05:26.7643076Z
+mysql-installer Information: 10 : Configuration file found.
+DateTime=2026-05-20T09:05:26.7643076Z
+mysql-installer Information: 10 : No settings file found. Loading default configurations.
+DateTime=2026-05-20T09:05:26.7643076Z
+mysql-installer Information: 10 : Loaded configurations.
+DateTime=2026-05-20T09:05:26.7955534Z
+mysql-installer Information: 10 : Validated internet connection using URL: https://www.google.com
+DateTime=2026-05-20T09:05:27.7418256Z
+mysql-installer Information: 10 : Attempting to update the product catalog.
+DateTime=2026-05-20T09:05:27.7574473Z
+mysql-installer Information: 10 : Attempting product manifest download from https://cdn.mysql.com/windows/installer/manifest.zip.
+DateTime=2026-05-20T09:05:27.7574473Z
+mysql-installer Information: 10 : Successfully downloaded new product catalog,
+DateTime=2026-05-20T09:05:36.8462645Z
+mysql-installer Information: 10 : Attempting to update the list of products.
+DateTime=2026-05-20T09:05:36.8462645Z
+mysql-installer Information: 10 : Applying new manifest.
+DateTime=2026-05-20T09:05:36.8462645Z
+mysql-installer Information: 10 : Attempting to merge the product catalog.
+DateTime=2026-05-20T09:05:36.9277602Z
+mysql-installer Information: 10 : 0 new products have been found.
+DateTime=2026-05-20T09:05:36.9973662Z
+mysql-installer Information: 10 : No packages found to merge.
+DateTime=2026-05-20T09:05:36.9973662Z
+mysql-installer Warning: 15 : There are no packages to merge.
+DateTime=2026-05-20T09:05:37.0129559Z
+mysql-installer Information: 10 : Saving configuration.
+DateTime=2026-05-20T09:05:37.2059557Z
+mysql-installer Information: 10 : Configuration saved.
+DateTime=2026-05-20T09:05:37.2069532Z
+mysql-installer Information: 10 : Successfully updated product catalog.
+DateTime=2026-05-20T09:05:37.2344581Z
+mysql-installer Information: 10 : Loading product catalog.
+DateTime=2026-05-20T09:05:37.2344581Z
+mysql-installer Information: 10 : Loaded product catalog.
+DateTime=2026-05-20T09:05:37.3856915Z
+mysql-installer Information: 10 : Saving configuration.
+DateTime=2026-05-20T09:05:38.0564357Z
+mysql-installer Information: 10 : Configuration saved.
+DateTime=2026-05-20T09:05:38.0564357Z
+mysql-installer Information: 10 : Beginning InstallTypePage.
+DateTime=2026-05-20T09:05:38.2897149Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.3277429Z
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\MySQLInstaller.Core.dll
+DateTime=2026-05-20T09:05:38.3678440Z
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\StandardPlugins.dll
+DateTime=2026-05-20T09:05:38.3779431Z
+mysql-installer Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2026-05-20T09:05:38.3827902Z
+mysql-installer Information: 10 : Product configuration controller created.
+DateTime=2026-05-20T09:05:38.3848169Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.4041027Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.4127698Z
+mysql-installer Information: 10 : Setting up product configuration controller for new installation.
+DateTime=2026-05-20T09:05:38.4143172Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.5255801Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.5255801Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.5255801Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.5255801Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:05:38.5255801Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.5411970Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.5447331Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Creating configuration controller for: mysql-router.
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Router configuration controller created.
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Router Settings - Load Configuration File Settings - Loading default settings
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Router Settings - Load Defaults - Setting initial configuration values
+DateTime=2026-05-20T09:05:38.5603579Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.5759792Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.5759792Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:05:38.5759792Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.5916011Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.5916011Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.5916011Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.5916011Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.5916011Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:05:38.5951080Z
+mysql-installer Information: 10 : Creating configuration controller for: examples.
+DateTime=2026-05-20T09:05:38.5951080Z
+mysql-installer Information: 10 : Examples configuration controller created.
+DateTime=2026-05-20T09:05:38.5951080Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:05:38.5951080Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:05:38.6107611Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:05:38.6107611Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:05:38.6107611Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:05:38.6107611Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:05:38.6107611Z
+mysql-installer Information: 10 : Installer exit
+DateTime=2026-05-20T09:06:00.0029776Z

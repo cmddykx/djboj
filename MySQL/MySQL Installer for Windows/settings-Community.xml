@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DaysToCheckForCatalogUpdates>1</DaysToCheckForCatalogUpdates>
+  <FilterConfiguration OnlyLocal="false" Architecture="Any" Category="All Software" Age="Current Bundle" />
+  <InnoDbClusterLogLevel xsi:nil="true" />
+  <LastCatalogCheck>2026-05-20 17:05:37Z</LastCatalogCheck>
+  <LastInstalledVersion>8.0.46</LastInstalledVersion>
+  <Location>
+    <X>560</X>
+    <Y>220</Y>
+  </Location>
+  <MOSDontAsk>false</MOSDontAsk>
+  <OfflineMode>false</OfflineMode>
+  <ProductCode>{8DD0C4EA-A9D5-489D-A737-34D707C03320}</ProductCode>
+  <ProxyMode>Automatic</ProxyMode>
+  <ProxyPort>0</ProxyPort>
+  <SendSystemInfo>false</SendSystemInfo>
+  <WarnOnImposters>true</WarnOnImposters>
+</Settings>

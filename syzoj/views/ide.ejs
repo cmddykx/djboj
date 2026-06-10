@@ -1,0 +1,147 @@
+<% this.title = 'IDE'; %>
+<% include header %>
+<% include monaco-editor %>
+ 
+<style>
+  .ide-container { display: flex; gap: 16px; margin-top: 16px; }
+  .ide-left { flex: 1; min-width: 0; }
+  .ide-right { width: 340px; flex-shrink: 0; }
+  #editor-container { height: 500px; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+  #res_output, #res_stderr { background: #1e1e1e; color: #d4d4d4; padding: 10px; border-radius: 4px; white-space: pre-wrap; font-family: 'Fira Mono', monospace; font-size: 13px; max-height: 300px; overflow-y: auto; }
+  #res_stderr { background: #2a1a1a; color: #ff8080; }
+</style>
+ 
+<div class="padding">
+  <h2 class="ui header"><i class="code icon"></i> 在线 IDE</h2>
+  <div class="ide-container">
+    <div class="ide-left">
+      <div id="editor-container"></div>
+    </div>
+    <div class="ide-right">
+      <div class="ui form">
+        <div class="field">
+          <label>语言</label>
+          <select class="ui fluid dropdown" id="language">
+            <option value="cpp">C++ (GCC 14.1.0)</option>
+            <option value="cpp14">C++ (GCC 9.2.0)</option>
+            <option value="c">C (GCC 14.1.0)</option>
+            <option value="python3" selected>Python 3.14</option>
+            <option value="python2">Python 2.7</option>
+            <option value="java">Java (JDK 17)</option>
+            <option value="javascript">JavaScript (Node 22)</option>
+            <option value="typescript">TypeScript 5.6</option>
+            <option value="rust">Rust 1.85</option>
+            <option value="go">Go 1.23</option>
+            <option value="kotlin">Kotlin 2.1</option>
+            <option value="scala">Scala 3.4</option>
+            <option value="csharp">C# (Mono)</option>
+            <option value="php">PHP 8.3</option>
+            <option value="ruby">Ruby 2.7</option>
+            <option value="swift">Swift 5.2</option>
+            <option value="bash">Bash 5.0</option>
+            <option value="lua">Lua 5.3</option>
+            <option value="pascal">Pascal (FPC)</option>
+            <option value="haskell">Haskell (GHC)</option>
+            <option value="perl">Perl 5.28</option>
+            <option value="dart">Dart 2.19</option>
+            <option value="ocaml">OCaml 4.09</option>
+            <option value="r">R 4.4</option>
+          </select>
+        </div>
+        <div class="field" style="margin-top: 12px;">
+          <label>输入</label>
+          <textarea id="input" rows="6" style="font-family: 'Fira Mono', monospace; font-size: 13px; width: 100%; resize: vertical;"></textarea>
+        </div>
+        <button class="ui primary fluid button" id="run_btn" onclick="runCode()" style="margin-top: 12px;">
+          <i class="play icon"></i> 运行
+        </button>
+      </div>
+ 
+      <div id="result_area" style="margin-top: 16px; display: none;">
+        <div class="ui segment" style="padding: 10px;">
+          <p style="margin: 0 0 8px 0;">
+            <strong>状态：</strong><span id="res_status"></span><br>
+            <strong>时间：</strong><span id="res_time"></span> ms
+            &nbsp;&nbsp;<strong>内存：</strong><span id="res_memory"></span> KB
+          </p>
+          <label><strong>输出：</strong></label>
+          <pre id="res_output"></pre>
+          <div id="res_stderr_area" style="display:none; margin-top: 8px;">
+            <label><strong>错误信息：</strong></label>
+            <pre id="res_stderr"></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<script>
+const LANG_HIGHLIGHT = {
+  'cpp': 'cpp', 'cpp14': 'cpp', 'c': 'c',
+  'python3': 'python', 'python2': 'python',
+  'java': 'java', 'javascript': 'javascript', 'typescript': 'typescript',
+  'rust': 'rust', 'go': 'go', 'kotlin': 'kotlin', 'scala': 'scala',
+  'csharp': 'csharp', 'php': 'php', 'ruby': 'ruby', 'swift': 'swift',
+  'bash': 'shell', 'lua': 'lua', 'pascal': 'pascal',
+  'haskell': 'haskell', 'perl': 'perl', 'dart': 'dart',
+  'ocaml': 'ocaml', 'r': 'r'
+};
+ 
+let editor;
+window.onEditorLoaded(function () {
+  editor = monaco.editor.create(document.getElementById('editor-container'), {
+    value: '',
+    language: 'python',
+    theme: 'tomorrow',
+    fontSize: 14,
+    fontFamily: "'Fira Mono', 'Bitstream Vera Sans Mono', 'Menlo', 'Consolas', 'Lucida Console', 'Source Han Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', monospace",
+    lineHeight: 22,
+    minimap: { enabled: false },
+    scrollBeyondLastLine: false,
+    automaticLayout: true
+  });
+});
+ 
+document.getElementById('language').addEventListener('change', function () {
+  const lang = LANG_HIGHLIGHT[this.value] || 'plaintext';
+  if (editor) monaco.editor.setModelLanguage(editor.getModel(), lang);
+});
+ 
+function runCode() {
+  const btn = document.getElementById('run_btn');
+  btn.classList.add('loading', 'disabled');
+  document.getElementById('result_area').style.display = 'none';
+ 
+  $.post('/api/ide', {
+    code: editor ? editor.getValue() : '',
+    language: document.getElementById('language').value,
+    input: document.getElementById('input').value
+  }, function (data) {
+    btn.classList.remove('loading', 'disabled');
+    document.getElementById('result_area').style.display = 'block';
+ 
+    if (!data.success) {
+      document.getElementById('res_status').textContent = '请求失败: ' + data.error;
+      document.getElementById('res_time').textContent = '-';
+      document.getElementById('res_memory').textContent = '-';
+      document.getElementById('res_output').textContent = '';
+      return;
+    }
+ 
+    document.getElementById('res_status').textContent = data.result;
+    document.getElementById('res_time').textContent = data.time || 0;
+    document.getElementById('res_memory').textContent = data.memory || 0;
+    document.getElementById('res_output').textContent = data.output || '(无输出)';
+ 
+    if (data.stderr) {
+      document.getElementById('res_stderr_area').style.display = 'block';
+      document.getElementById('res_stderr').textContent = data.stderr;
+    } else {
+      document.getElementById('res_stderr_area').style.display = 'none';
+    }
+  });
+}
+</script>
+ 
+<% include footer %>

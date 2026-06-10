@@ -1,0 +1,169 @@
+{
+    "fileType": "MySQL Shell Plugins Manifest",
+    "version": "0.0.1",
+    "releaseVersion": "2021.02.26.17.00",
+    "repository": {
+        "name": "Official MySQL Shell Plugin Repository",
+        "description": "The official MySQL Shell Plugin Repository maintained by the MySQL Team at Oracle Corp."
+    },
+    "plugins": [
+        {
+            "caption": "Oracle Cloud Plugin",
+            "name": "cloud",
+            "moduleName": "cloud_plugin",
+            "description": "Plugin to manage the MySQL Database Service on OCI.",
+            "latestVersion": "0.1.9",
+            "editions": [
+                {
+                    "name": "community",
+                    "packagePrefix": "mysql-shell-cloud-plugin",
+                    "licenseHeader": "./resources/license_header_community.txt",
+                    "licenseFile": "./resources/LICENSE_gpl.txt"
+                },
+                {
+                    "name": "commercial",
+                    "packagePrefix": "mysql-shell-commercial-cloud-plugin",
+                    "licenseHeader": "./resources/license_header_commercial.txt",
+                    "licenseFile": "./resources/LICENSE_commercial.txt"
+                }
+            ],
+            "versions": [
+                {
+                    "version": "0.1.9",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Added support for host_image_id and tags in create.mysqlDbSystem and tags for compute instances."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.9.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.9.zip"
+                    }
+                },
+                {
+                    "version": "0.1.8",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Added support for OCI endpoints via cloud.set.currentEndpoint()."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.8.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.8.zip"
+                    }
+                },
+                {
+                    "version": "0.1.7",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Fixed bugs in compute instance creation, added list.availability_domains."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.7.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.7.zip"
+                    }
+                },
+                {
+                    "version": "0.1.6",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Added network listing functions and default network support. Fixed success check at the end of create.mysqlDbSystem."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.6.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.6.zip"
+                    }
+                },
+                {
+                    "version": "0.1.5",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Fixed error handling for compute shapes, MySQL password confirmation, issue in create.mysqlDbSystem."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.5.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.5.zip"
+                    }
+                },
+                {
+                    "version": "0.1.4",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Added support for API key passphrases. Fixed cloud.ls() display bug."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.4.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.4.zip"
+                    }
+                },
+                {
+                    "version": "0.1.3",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Fixed initial OCI profile generation."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.3.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.3.zip"
+                    }
+                },
+                {
+                    "version": "0.1.2",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Improved network handling for VPN usage."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.2.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.2.zip"
+                    }
+                },
+                {
+                    "version": "0.1.1",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Switched to new mysqlsh.plugin_manager support."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.1.1.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.1.1.zip"
+                    }
+                },
+                {
+                    "version": "0.0.8",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Addressed several bugs."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.0.8.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.0.8.zip"
+                    }
+                },
+                {
+                    "version": "0.0.7",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Added Tenant information for user creation",
+                        "Changed create compartment behavior",
+                        "Added UI Password support."
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.0.7.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.0.7.zip"
+                    }
+                },
+                {
+                    "version": "0.0.6",
+                    "developmentStage": "preview",
+                    "changes": [
+                        "Add support for instance principals and bugfixes",
+                        "Completed cloud.create.profile()"
+                    ],
+                    "urls": {
+                        "community": "https://insidemysql.com/downloads/mysql-shell-cloud-plugin-0.0.6.zip",
+                        "commercial": "https://insidemysql.com/downloads/mysql-shell-commercial-cloud-plugin-0.0.6.zip"
+                    }
+                }
+            ]
+        }
+    ]
+}

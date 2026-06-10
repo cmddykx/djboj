@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SetupTypes>
+    <SetupType short-description="Installs only the MySQL Server product."
+	  long-description="Installs only the MySQL Server. This type should be used when you want to deploy a MySQL Server, but will not be developing MySQL applications."
+	  flag="2"
+	  name="Server only" />
+    <SetupType short-description="Installs only the MySQL Client products, without a server."
+	  long-description="Installs the tools required for MySQL application administration, but does not include the MySQL Server itself. This is useful if you intend to access and configure the server.&#xD;&#xA;&#xD;&#xA;This Setup Type includes:&#xD;&#xA;&#xD;&#xA;* MySQL Shell&#xD;&#xA;The new MySQL client application to manage MySQL Servers and InnoDB cluster instances.&#xD;&#xA;&#xD;&#xA;* MySQL Router&#xD;&#xA;High availability router daemon for InnoDB cluster setups to be installed on application nodes.&#xD;&#xA;&#xD;&#xA;* MySQL Workbench&#xD;&#xA;The GUI application to develop for and manage the server.&#xD;&#xA;&#xD;&#xA;"
+	  long-description-commercial="Installs the tools required for MySQL application administration, but does not include the MySQL Server itself. This is useful if you intend to access and configure the server.&#xD;&#xA;&#xD;&#xA;This Setup Type includes:&#xD;&#xA;&#xD;&#xA;* MySQL Shell&#xD;&#xA;The new MySQL client application to manage MySQL Servers and InnoDB cluster instances.&#xD;&#xA;&#xD;&#xA;* MySQL Router&#xD;&#xA;High availability router daemon for InnoDB cluster setups to be installed on application nodes.&#xD;&#xA;&#xD;&#xA;* MySQL Enterprise Backup&#xD;&#xA;Provides enterprise-grade backup and recovery for MySQL.&#xD;&#xA;&#xD;&#xA;* MySQL Workbench&#xD;&#xA;The GUI application to develop for and manage the server.&#xD;&#xA;&#xD;&#xA;"
+	  flag="4"
+	  name="Client only" />
+    <SetupType short-description="Installs all included MySQL products and features."
+	  long-description="Installs all of the products available in this catalog including MySQL Server, MySQL Shell, MySQL Router, MySQL Workbench, documentation, samples and examples and more."
+      long-description-commercial="Installs all of the products available in this catalog including MySQL Server, MySQL Shell, MySQL Router, MySQL Enterprise Backup, MySQL Workbench, documentation, samples and examples and more."	  
+	  flag="64"
+	  name="Full" />
+    <SetupType short-description="Manually select the products that should be installed on the system."
+	  long-description="Allows you to select exactly which products you would like to install. This also allows to pick other server versions and architectures (depending on your OS)."
+	  flag="128"
+	  name="Custom" />
+  </SetupTypes>
+  <CatalogUrl>https://cdn.mysql.com/windows/installer/manifest.zip</CatalogUrl>
+  <UpdateTimeoutMilliseconds>10000</UpdateTimeoutMilliseconds>
+  <UpdateCheckFrequency>7</UpdateCheckFrequency>
+  <MaxLogCount>100</MaxLogCount>
+</Configuration>

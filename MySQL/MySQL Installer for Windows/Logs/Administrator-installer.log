@@ -1,0 +1,515 @@
+mysql-installer Information: 10 : Configuration file found.
+DateTime=2026-05-20T09:07:48.6918665Z
+mysql-installer Information: 10 : Settings file found. Loading configurations from file.
+DateTime=2026-05-20T09:07:48.7069964Z
+mysql-installer Information: 10 : Loaded configurations.
+DateTime=2026-05-20T09:07:48.7933827Z
+mysql-installer Information: 10 : Validated internet connection using URL: https://www.google.com
+DateTime=2026-05-20T09:07:49.9571456Z
+mysql-installer Information: 10 : Attempting to update the product catalog.
+DateTime=2026-05-20T09:07:49.9661711Z
+mysql-installer Information: 10 : Skipping download of the product catalog.
+DateTime=2026-05-20T09:07:49.9721558Z
+mysql-installer Information: 10 : Attempting to update the list of products.
+DateTime=2026-05-20T09:07:49.9731531Z
+mysql-installer Information: 10 : Applying new manifest.
+DateTime=2026-05-20T09:07:49.9741497Z
+mysql-installer Information: 10 : The newly downloaded product catalog was not applied because it does not contain any updates for the current product catalog.
+DateTime=2026-05-20T09:07:50.0100941Z
+mysql-installer Information: 10 : Loading product catalog.
+DateTime=2026-05-20T09:07:50.0100941Z
+mysql-installer Information: 10 : Loaded product catalog.
+DateTime=2026-05-20T09:07:51.2279557Z
+mysql-installer Information: 10 : Beginning InstallTypePage.
+DateTime=2026-05-20T09:07:51.4551462Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.4863922Z
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\MySQLInstaller.Core.dll
+DateTime=2026-05-20T09:07:51.5020422Z
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\StandardPlugins.dll
+DateTime=2026-05-20T09:07:51.5055791Z
+mysql-installer Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2026-05-20T09:07:51.5055791Z
+mysql-installer Information: 10 : Product configuration controller created.
+DateTime=2026-05-20T09:07:51.5055791Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.5212376Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.5368547Z
+mysql-installer Information: 10 : Setting up product configuration controller for new installation.
+DateTime=2026-05-20T09:07:51.5368547Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.6376781Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.6376781Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.6376781Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.6376781Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:07:51.6532986Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.6568059Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Creating configuration controller for: mysql-router.
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Router configuration controller created.
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.6724299Z
+mysql-installer Information: 10 : Router Settings - Load Configuration File Settings - Loading default settings
+DateTime=2026-05-20T09:07:51.6880872Z
+mysql-installer Information: 10 : Router Settings - Load Defaults - Setting initial configuration values
+DateTime=2026-05-20T09:07:51.6880872Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.7072080Z
+mysql-installer Information: 10 : Package - setting up controller
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Creating configuration controller for: examples.
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Examples configuration controller created.
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Package - Initializing controller
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Product Configuration Controller - Init - Setting pages
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:51.7228627Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Controller Settings - Load Defaults For Install - load and set default settings
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:07:59.1665658Z
+mysql-installer Information: 10 : Beginning CheckRequirementsPage.
+DateTime=2026-05-20T09:07:59.2479964Z
+mysql-installer Information: 10 : Attempting to download prerequisite VCRuntime2019x64OrGreaterInstalled_Registry from https://aka.ms/vs/16/release/vc_redist.x64.exe.
+DateTime=2026-05-20T09:08:05.6999509Z
+mysql-installer Information: 10 : Installation complete.
+DateTime=2026-05-20T09:11:15.1925295Z
+mysql-installer Information: 10 : Attempting to delete downloaded requirement C:\Users\Administrator\AppData\Local\Temp\vc_redist.x64.exe...
+DateTime=2026-05-20T09:11:15.1925295Z
+mysql-installer Information: 10 : Successfully deleted downloaded requirement C:\Users\Administrator\AppData\Local\Temp\vc_redist.x64.exe.
+DateTime=2026-05-20T09:11:15.1925295Z
+mysql-installer Information: 10 : Beginning AddProgressPage.
+DateTime=2026-05-20T09:11:22.1708489Z
+mysql-installer Information: 10 : Beginning changes for MySQL Server 8.0.46 with options REBOOT=ReallySuppress   ADDLOCAL=ALL  INSTALLDIR="C:\Program Files\MySQL\MySQL Server 8.0" INSTALLLOCATION="C:\Program Files\MySQL\MySQL Server 8.0" ARPINSTALLLOCATION="C:\Program Files\MySQL\MySQL Server 8.0" INSTALL_ROOT="C:\Program Files\MySQL\MySQL Server 8.0" DATADIR="C:\ProgramData\MySQL\MySQL Server 8.0" ALLUSERS=1
+DateTime=2026-05-20T09:11:26.8666590Z
+mysql-installer Information: 10 : MySQL Server 8.0.46's change state request passed.
+DateTime=2026-05-20T09:11:31.5119755Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:11:31.5119755Z
+mysql-installer Information: 10 : Package - Installed - loading properties
+DateTime=2026-05-20T09:11:33.0128334Z
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+DateTime=2026-05-20T09:11:33.0128334Z
+mysql-installer Information: 10 : Package - Installed - Set Features states
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Server 8.0
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.46
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.46
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.45
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.45
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.44
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.44
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.43
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.43
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.42
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.42
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.41
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.41
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.40
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.40
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.39
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.39
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.38
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.38
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.37
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.37
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.36
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.36
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.35
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.35
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.34
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.34
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.33
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.33
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.32
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.32
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.31
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.31
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.30
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.30
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.29
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.29
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.28
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.28
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.27
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.27
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.26
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.26
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.25
+DateTime=2026-05-20T09:11:33.0189369Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.25
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.24
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.24
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.23
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.23
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.22
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.22
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.21
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.21
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.20
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.20
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.19
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.19
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.18
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.18
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.17
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.17
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.16
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.16
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.15
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.15
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.14
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.14
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.13
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.13
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.12
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.12
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.11
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.11
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.4
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.3
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.2
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.1
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 8.0.0
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Server Settings - Load Installed - calling base
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files\MySQL\MySQL Server 8.0\
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2026-05-20T09:11:33.0319417Z
+mysql-installer Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2026-05-20T09:11:33.4505525Z
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2026-05-20T09:11:33.4505525Z
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - Loading default settings
+DateTime=2026-05-20T09:11:33.4505525Z
+mysql-installer Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2026-05-20T09:11:33.4505525Z
+mysql-installer Error: 50 : Package - Error - Something is wrong with the package properties : 
+未将对象引用设置到对象的实例。
+DateTime=2026-05-20T09:11:33.4505525Z
+mysql-installer Information: 10 : Beginning ConfigOverviewPage.
+DateTime=2026-05-20T09:11:33.4853060Z
+mysql-installer Information: 10 : Setting up product configuration controller for new installation.
+DateTime=2026-05-20T09:11:36.6148624Z
+mysql-installer Information: 10 : Beginning ServerConfigLocalMachinePage.
+DateTime=2026-05-20T09:11:36.7312369Z
+mysql-installer Information: 10 : Advancing to next step using:
+	Service Name: MySQL80
+	Enable TCP/IP: True
+	Port: 3306
+	Enable pipe: False
+	Pipe name: MYSQL
+	Enable shared memory: False
+	Memory name MYSQL
+DateTime=2026-05-20T09:11:49.9518286Z
+mysql-installer Information: 10 : Beginning ServerConfigDefaultAuthenticationPage.
+DateTime=2026-05-20T09:11:49.9709594Z
+mysql-installer Information: 10 : Beginning ServerConfigUserAccountsPage.
+DateTime=2026-05-20T09:11:53.2054118Z
+mysql-installer Information: 10 : Beginning ServerConfigServicePage.
+DateTime=2026-05-20T09:12:34.9635528Z
+mysql-installer Information: 10 : Advancing to next step using:
+	Service Name: MySQL80
+	Auto-start Service at boot: True
+	Service Account User: NT AUTHORITY\NetworkService
+DateTime=2026-05-20T09:12:38.2878448Z
+mysql-installer Information: 10 : Beginning ServerConfigSecurityPage.
+DateTime=2026-05-20T09:12:38.2913520Z
+mysql-installer Information: 10 : Beginning ConfigApplyPage.
+DateTime=2026-05-20T09:12:39.8907645Z
+mysql-installer Information: 10 : Starting configuration of MySQL Server 8.0.46
+DateTime=2026-05-20T09:12:40.9870606Z
+mysql-installer Information: 10 : Saving my.ini configuration file...
+DateTime=2026-05-20T09:12:41.0026829Z
+mysql-installer Information: 10 : Saved my.ini configuration file.
+DateTime=2026-05-20T09:12:41.1037118Z
+mysql-installer Information: 10 : Adding a Windows Firewall rule for MySQL80 on port 3306.
+DateTime=2026-05-20T09:12:41.1193344Z
+mysql-installer Information: 10 : Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 3306" protocol=TCP localport=3306 dir=in action=allow
+DateTime=2026-05-20T09:12:41.1193344Z
+mysql-installer Information: 10 : 确定。
+
+
+DateTime=2026-05-20T09:12:41.4059807Z
+mysql-installer Information: 10 : Successfully added the Windows Firewall rule.
+DateTime=2026-05-20T09:12:41.4059807Z
+mysql-installer Information: 10 : Adding a Windows Firewall rule for MySQL80 on port 33060.
+DateTime=2026-05-20T09:12:41.4059807Z
+mysql-installer Information: 10 : Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 33060" protocol=TCP localport=33060 dir=in action=allow
+DateTime=2026-05-20T09:12:41.4059807Z
+mysql-installer Information: 10 : 确定。
+
+
+DateTime=2026-05-20T09:12:41.5415100Z
+mysql-installer Information: 10 : Successfully added the Windows Firewall rule.
+DateTime=2026-05-20T09:12:41.5415100Z
+mysql-installer Information: 10 : Attempting to grant the required filesystem permissions to the 'NT AUTHORITY\NetworkService' account.
+DateTime=2026-05-20T09:12:41.5415100Z
+mysql-installer Information: 10 : Granted permissions to the data directory.
+DateTime=2026-05-20T09:12:41.5571609Z
+mysql-installer Information: 10 : Adding new service
+DateTime=2026-05-20T09:12:41.5571609Z
+mysql-installer Information: 10 : New service added
+DateTime=2026-05-20T09:12:41.5727766Z
+mysql-installer Information: 10 : Attempting to run MySQL Server with --initialize-insecure option...
+DateTime=2026-05-20T09:12:41.5763176Z
+mysql-installer Information: 10 : Starting process for MySQL Server 8.0.46...
+DateTime=2026-05-20T09:12:41.5919435Z
+mysql-installer Information: 10 : Starting process with command: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe --defaults-file="C:\ProgramData\MySQL\MySQL Server 8.0\my.ini" --console --initialize-insecure=on --lower-case-table-names=1...
+DateTime=2026-05-20T09:12:41.5919435Z
+mysql-installer Information: 10 : C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.46) initializing of server in progress as process 4888
+DateTime=2026-05-20T09:12:41.6927196Z
+mysql-installer Information: 10 : InnoDB initialization has started.
+DateTime=2026-05-20T09:12:41.6927196Z
+mysql-installer Information: 10 : InnoDB initialization has ended.
+DateTime=2026-05-20T09:12:42.4987019Z
+mysql-installer Information: 10 : root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+DateTime=2026-05-20T09:12:43.4907358Z
+mysql-installer Information: 10 : Process for mysqld, with ID 4888, was run successfully and exited with code 0.
+DateTime=2026-05-20T09:12:48.9366743Z
+mysql-installer Information: 10 : Successfully started process for MySQL Server 8.0.46.
+DateTime=2026-05-20T09:12:48.9366743Z
+mysql-installer Information: 10 : MySQL Server 8.0.46 intialized the database successfully.
+DateTime=2026-05-20T09:12:48.9366743Z
+mysql-installer Information: 10 : Attempting to update the permissions for the data folder and related server files...
+DateTime=2026-05-20T09:12:48.9366743Z
+mysql-installer Information: 10 : Inherited permissions have been converted to explicit permissions.
+DateTime=2026-05-20T09:12:49.0027693Z
+mysql-installer Information: 10 : Full control permissions granted to: NETWORK SERVICE.
+DateTime=2026-05-20T09:12:49.0687633Z
+mysql-installer Information: 10 : Full control permissions granted to: Administrators.
+DateTime=2026-05-20T09:12:49.1382966Z
+mysql-installer Information: 10 : Full control permissions granted to: CREATOR OWNER.
+DateTime=2026-05-20T09:12:49.1886707Z
+mysql-installer Information: 10 : Full control permissions granted to: SYSTEM.
+DateTime=2026-05-20T09:12:49.2547005Z
+mysql-installer Information: 10 : Access to the data directory is removed for the users group.
+DateTime=2026-05-20T09:12:49.2894920Z
+mysql-installer Information: 10 : Permissions for the data folder and related server files are updated correctly.
+DateTime=2026-05-20T09:12:49.3051493Z
+mysql-installer Information: 10 : Attempting to start service MySQL80...
+DateTime=2026-05-20T09:12:49.3051493Z
+mysql-installer Verbose: 5 : 2026/5/20 17:12:49 - Service MySQL80 is stopped or paused, so it can be started.
+DateTime=2026-05-20T09:12:49.3207386Z
+mysql-installer Verbose: 5 : 2026/5/20 17:12:49 - Attempting to start the MySQL80 service...
+DateTime=2026-05-20T09:12:49.3207386Z
+mysql-installer Information: 10 : C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.46) starting as process 1604
+DateTime=2026-05-20T09:12:50.3482415Z
+mysql-installer Information: 10 : InnoDB initialization has started.
+DateTime=2026-05-20T09:12:50.3482415Z
+mysql-installer Information: 10 : InnoDB initialization has ended.
+DateTime=2026-05-20T09:12:51.7236977Z
+mysql-installer Verbose: 5 : 2026/5/20 17:12:51 - MySQL80 service was started successfully.
+DateTime=2026-05-20T09:12:51.9929099Z
+mysql-installer Information: 10 : CA certificate ca.pem is self signed.
+DateTime=2026-05-20T09:12:52.7378909Z
+mysql-installer Information: 10 : Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+DateTime=2026-05-20T09:12:52.7378909Z
+mysql-installer Information: 10 : X Plugin ready for connections. Bind-address: '::' port: 33060
+DateTime=2026-05-20T09:12:52.7378909Z
+mysql-installer Information: 10 : C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe: ready for connections. Version: '8.0.46'  socket: ''  port: 3306  MySQL Community Server - GPL.
+DateTime=2026-05-20T09:12:52.7378909Z
+mysql-installer Information: 10 : Successfully started service MySQL80.
+DateTime=2026-05-20T09:12:53.7497619Z
+mysql-installer Information: 10 : Waiting until a connection to MySQL Server 8.0.46 can be established (with a maximum of 10 attempts)...
+DateTime=2026-05-20T09:12:53.8153990Z
+mysql-installer Information: 10 : Retry 1: Attempting to connect to Mysql@localhost:3306 with user root with no password...
+DateTime=2026-05-20T09:12:53.8849582Z
+mysql-installer Information: 10 : Successfully connected to MySQL Server 8.0.46.
+DateTime=2026-05-20T09:12:54.3888082Z
+mysql-installer Information: 10 : Attempting to update security settings.
+DateTime=2026-05-20T09:12:54.4044659Z
+mysql-installer Information: 10 : Updated security settings.
+DateTime=2026-05-20T09:12:54.4860794Z
+mysql-installer Information: 10 : Attempting to verify command-line client shortcut.
+DateTime=2026-05-20T09:12:54.4895868Z
+mysql-installer Information: 10 : Verified command-line client shortcut.
+DateTime=2026-05-20T09:12:54.5399923Z
+mysql-installer Information: 10 : Verified command-line client shortcut.
+DateTime=2026-05-20T09:12:54.5556171Z
+mysql-installer Information: 10 : Finished configuration of MySQL Server 8.0.46 with state ConfigurationComplete
+DateTime=2026-05-20T09:12:54.5556171Z
+mysql-installer Information: 10 : Beginning InstallationCompletePage.
+DateTime=2026-05-20T09:12:58.3259664Z
+mysql-installer Information: 10 : Installer exit
+DateTime=2026-05-20T09:13:01.1353707Z
